@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=10, b=20;
+    a = ++b;//21
+    b = a++;//22
+    a = ++b;//23
+    b = a++;//22
+    printf("%d %d", a, b );//a=23, b=22
+        
+    return 0;
+}
